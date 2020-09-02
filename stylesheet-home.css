@@ -147,12 +147,25 @@ footer {
   color: #0000FF;
 }
 
-@media (min-width: 670px) {
+@media (max-width: 475px) {
    .header-list li {
      float :left;
      font-size: 10px;
      padding: 10px 10px;
    }
 
+   header {
+     background-color: #EC7063;
+     height: 45px;
+     width: 95%;
+     font-family: Helvetica;
+     position: fixed;
+   }
 
+  .header-logo img {
+    height: 45px;
+    width: 45px;
+  }
+
+  .footer-logo
 }
