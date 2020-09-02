@@ -1,0 +1,11 @@
+@media (max-width: 1000px) {
+
+}
+
+@media all and (max-width: 670px) {
+  .header-list {
+      float :left;
+      font-size: 10px;
+      padding: 10px;
+  }
+}

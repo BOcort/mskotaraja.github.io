@@ -1,0 +1,158 @@
+header {
+  background-color: #EC7063;
+  height: 90px;
+  width: 95%;
+  font-family: Helvetica;
+  position: fixed;
+}
+
+.header-logo {
+  float: left;
+  Width: auto;
+}
+
+.header-logo  img{
+  float: left;
+  height: 90px;
+  Width: 90px;
+}
+.header-list {
+  float: left;
+}
+
+li {
+ list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  color: black;
+}
+
+
+
+.header-list li {
+  float :left;
+  font-size: 20px;
+  padding: 20px 20px;
+}
+
+body {
+font-family: Helvetica;
+}
+
+main {
+  padding: 100px 80px;
+}
+
+.copy-container {
+  font-family: Helvetica;
+  background-image: url(cp.jpg);
+
+  height:120px;
+}
+
+.copy-container img {
+  height: 90px;
+  width: 90px;
+  float: left;
+  opacity: 0.6;
+}
+
+.btn {
+  flex-wrap: wrap;
+  height: 130px;
+  width: 130px;
+  padding: 40px;
+}
+
+.btn img {
+  height : 120px;
+  width : 120px;
+}
+
+.pts {
+  width :95%;
+  margin-top: 40px;
+  padding: 20px ;
+  margin-bottom: 50px;
+  float: left;
+}
+
+.paket {
+  float: left;
+
+}
+
+.contents {
+  margin-top: 100px;
+  flex-wrap: wrap;
+}
+
+
+.contents-item {
+  float: left;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+
+footer {
+  padding: 100px 80px;
+  background-color: #EC7063;
+  height: 90px;
+  width: 85%;
+  font-family: Helvetica;
+  font-size: 30px;
+  float: left;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 25px;
+  padding: 25px;
+}
+
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  font-size: 20px;
+  padding: 15px 20px;
+  color: 	#000000;
+}
+
+
+
+.fa-whatsapp {
+  color: #00FF00;
+}
+
+.fa-instagram {
+  color: #FF0000;
+}
+
+.fa-facebook{
+  color: #0000FF;
+}
+
+@media (min-width: 670px) {
+   .header-list li {
+     float :left;
+     font-size: 10px;
+     padding: 10px 10px;
+   }
+
+
+}
